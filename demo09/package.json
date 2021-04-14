@@ -1,0 +1,14 @@
+{
+  "name": "webpack-demo9",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx cross-env DEBUG=true webpack && webpack serve --port 8888",
+    "build": "npx cross-env DEBUG=false webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
